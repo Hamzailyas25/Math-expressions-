@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATH EXPRESSIONS</title>
+</head>
+<body>
+    
+
+
+
+
+
+    <script>
+
+       
+       // 1. Write a program to take a number in a variable, do the required arithmetic to display the following result in your browser:
+
+       document.write("<p>Result:</p>")
+       var ab = 10 
+       document.write("<p>The value of a is: ",ab,"</p><br><br>")
+
+       document.write("<p>The value of ++a is: ",++ab,"</p>")
+       document.write("<p>Now the value of a is: ",ab,"</p><br><br>")
+
+       document.write("<p>The value of ++a is: ",ab++,"</p>")
+       document.write("<p>Now the value of a is: ",ab,"</p><br><br>")
+
+       document.write("<p>The value of ++a is: ",--ab,"</p>")
+       document.write("<p>Now the value of a is: ",ab,"</p><br><br>")
+
+       document.write("<p>The value of ++a is: ",ab--,"</p>")
+       document.write("<p>Now the value of a is: ",ab,"</p><br><br>")
+
+       // 2. What will be the output in variables a, b & result after execution of the following script:
+
+
+       var a = 2, b = 1;
+       var result = --a - --b + ++b + b--;
+
+       document.write("<p>a is ",a,"</p>")
+       document.write("<p>b is ",b,"</p>")
+       document.write("<p>result is",result,"</p>")
+
+       // 3. Write a program that takes input a name from user & greet the user.
+       var userName = prompt("Enter your name:")
+
+       document.write("<p>Hello " + userName + "!</p>")
+
+
+       // 6. Take
+       // a) Take three subjects name from user and store them in 3 different variables.
+       // b) Total marks for each subject is 100, store it in another variable.
+       // c) Take obtained marks for first subject from user and stored it in different variable.
+       // d) Take obtained marks for remaining 2 subjects from user and store them in variables.
+       // e) Now calculate total marks and percentage and show the result in browser like this.(Hint: user table)
+
+
+       var sub1 = "English "
+        var total1 = 100
+        var obtaine1 = prompt("please enter the english marks")
+        var per1 = obtaine1
+
+        document.write(sub1 , " " , total1 , " " , obtaine1 , " " , per1 ,"%", "<br>")
+
+        
+        var sub2 = "Urdu "
+        var total2 = 100
+        var obtaine2 = prompt("please enter the urdu marks")
+        var per2 = obtaine2
+
+        document.write(sub2 , " " , total2 , " " , obtaine2 , " " , per2 ,"%", "<br>")
+
+        var sub3 = "Math"
+        var total3 = 100
+        var obtaine3 = prompt("please enter the math marks")
+        var per3 = obtaine3
+
+        document.write(sub3 , " "," "," " , total3 , " " , obtaine3 , " " , per3 , "%","<br>")
+
+
+        var totalm = total1 + total2 + total3
+        var tatalobt = per1*1 + per2*1 + per3*1
+        var per4 = tatalobt*100/totalm
+
+        document.write(totalm , " " , tatalobt , " " , per4 , "%<br>"  )
+
+
+
+       
+
+
+       
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+</body>
+</html>
